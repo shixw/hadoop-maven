@@ -14,6 +14,7 @@ public class DataBean implements Writable {
     private String tleNo;
     private long upPayLoad;
     private long downPayLoad;
+
     private long totalPayLoad;
 
     public DataBean() {
