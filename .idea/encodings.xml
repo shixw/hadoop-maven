@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datacount" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hbase" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hdfs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hdfs/src/main/java/com/hadoop/hdfs/HDFSDemo.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hive-udf" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hmbbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/inverseindex" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sortmr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/temperature" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wordcount" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

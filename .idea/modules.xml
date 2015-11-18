@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/datacount/datacount.iml" filepath="$PROJECT_DIR$/datacount/datacount.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hadoop_maven.iml" filepath="$PROJECT_DIR$/hadoop_maven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hbase/hbase.iml" filepath="$PROJECT_DIR$/hbase/hbase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hdfs/hdfs.iml" filepath="$PROJECT_DIR$/hdfs/hdfs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hive-udf/hive-udf.iml" filepath="$PROJECT_DIR$/hive-udf/hive-udf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hmbbs/hmbbs.iml" filepath="$PROJECT_DIR$/hmbbs/hmbbs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inverseindex/inverseindex.iml" filepath="$PROJECT_DIR$/inverseindex/inverseindex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mr/mr.iml" filepath="$PROJECT_DIR$/mr/mr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc/rpc.iml" filepath="$PROJECT_DIR$/rpc/rpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sortmr/sortmr.iml" filepath="$PROJECT_DIR$/sortmr/sortmr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/temperature/temperature.iml" filepath="$PROJECT_DIR$/temperature/temperature.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wordcount/wordcount.iml" filepath="$PROJECT_DIR$/wordcount/wordcount.iml" />
+    </modules>
+  </component>
+</project>
