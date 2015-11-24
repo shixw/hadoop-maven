@@ -31,6 +31,7 @@
         <module name="mr" />
         <module name="rpc" />
         <module name="sortmr" />
+        <module name="storm" />
         <module name="temperature" />
         <module name="untitled" />
         <module name="wordcount" />
@@ -48,6 +49,7 @@
       <module name="mr" target="1.6" />
       <module name="rpc" target="1.6" />
       <module name="sortmr" target="1.6" />
+      <module name="storm" target="1.6" />
       <module name="temperature" target="1.6" />
       <module name="untitled" target="1.6" />
       <module name="wordcount" target="1.6" />
