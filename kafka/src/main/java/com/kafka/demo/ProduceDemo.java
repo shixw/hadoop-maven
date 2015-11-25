@@ -24,7 +24,7 @@ public class ProduceDemo {
         //读取文件 读取内存数据 读socket 端口
         for (int i = 0; i < 5; i++) {
             Thread.sleep(500);
-            producer.send(new KeyedMessage<String, String>("workcount", "i said i love you baby for " + i));
+            producer.send(new KeyedMessage<String, String>("wordcount", " qin " + i));
         }
         producer.close();
     }

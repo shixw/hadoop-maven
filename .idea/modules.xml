@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/rpc/rpc.iml" filepath="$PROJECT_DIR$/rpc/rpc.iml" />
       <module fileurl="file://$PROJECT_DIR$/sortmr/sortmr.iml" filepath="$PROJECT_DIR$/sortmr/sortmr.iml" />
       <module fileurl="file://$PROJECT_DIR$/storm/storm.iml" filepath="$PROJECT_DIR$/storm/storm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/storm-kafka/storm-kafka.iml" filepath="$PROJECT_DIR$/storm-kafka/storm-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/temperature/temperature.iml" filepath="$PROJECT_DIR$/temperature/temperature.iml" />
       <module fileurl="file://$PROJECT_DIR$/wordcount/wordcount.iml" filepath="$PROJECT_DIR$/wordcount/wordcount.iml" />
     </modules>
