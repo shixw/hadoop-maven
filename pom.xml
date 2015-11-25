@@ -21,6 +21,7 @@
         <module>temperature</module>
         <module>mr</module>
         <module>storm</module>
+        <module>kafka</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

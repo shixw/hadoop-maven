@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/hive-udf/hive-udf.iml" filepath="$PROJECT_DIR$/hive-udf/hive-udf.iml" />
       <module fileurl="file://$PROJECT_DIR$/hmbbs/hmbbs.iml" filepath="$PROJECT_DIR$/hmbbs/hmbbs.iml" />
       <module fileurl="file://$PROJECT_DIR$/inverseindex/inverseindex.iml" filepath="$PROJECT_DIR$/inverseindex/inverseindex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka/kafka.iml" filepath="$PROJECT_DIR$/kafka/kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/mr/mr.iml" filepath="$PROJECT_DIR$/mr/mr.iml" />
       <module fileurl="file://$PROJECT_DIR$/rpc/rpc.iml" filepath="$PROJECT_DIR$/rpc/rpc.iml" />
       <module fileurl="file://$PROJECT_DIR$/sortmr/sortmr.iml" filepath="$PROJECT_DIR$/sortmr/sortmr.iml" />

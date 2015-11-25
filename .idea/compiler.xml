@@ -28,6 +28,7 @@
         <module name="hive-udf" />
         <module name="hmbbs" />
         <module name="inverseindex" />
+        <module name="kafka" />
         <module name="mr" />
         <module name="rpc" />
         <module name="sortmr" />
@@ -46,6 +47,7 @@
       <module name="hive_udf" target="1.6" />
       <module name="hmbbs" target="1.6" />
       <module name="inverseindex" target="1.6" />
+      <module name="kafka" target="1.6" />
       <module name="mr" target="1.6" />
       <module name="rpc" target="1.6" />
       <module name="sortmr" target="1.6" />
