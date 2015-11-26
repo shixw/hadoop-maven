@@ -16,14 +16,14 @@ import java.util.UUID;
  *
  */
 public class WriterBolt extends BaseBasicBolt {
-    private static final long serialVersionUID = -2118039784485510600L;
 
+    private static final long serialVersionUID = 7879894352087428426L;
     private FileWriter writer = null;
 
     @Override
     public void prepare(Map stormConf, TopologyContext context) {
         try {
-            writer = new FileWriter("c:\\storm-kafka\\"+ UUID.randomUUID().toString());
+            writer = new FileWriter("/home/hadoop/storm-kafka/"+ UUID.randomUUID().toString());
         } catch (IOException e) {
             e.printStackTrace();
         }

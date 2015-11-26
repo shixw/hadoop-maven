@@ -1,7 +1,7 @@
 package com.storm.kafka.demo.topology;
 
 import backtype.storm.Config;
-import backtype.storm.LocalCluster;
+import backtype.storm.StormSubmitter;
 import backtype.storm.spout.SchemeAsMultiScheme;
 import backtype.storm.topology.TopologyBuilder;
 import backtype.storm.tuple.Fields;
@@ -18,7 +18,7 @@ import storm.kafka.ZkHosts;
  *
  */
 public class KafkaTopo {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
         String topic = "wordcount";
         String zkRoot = "/kafka-storm";
         String spoutId = "KafkaSpout";
@@ -27,7 +27,6 @@ public class KafkaTopo {
         BrokerHosts brokerHosts = new ZkHosts("hadoop04:2181,hadoop05:2181,hadoop06:2181");
         SpoutConfig spoutConfig = new SpoutConfig(brokerHosts,topic,zkRoot,spoutId);
         spoutConfig.scheme = new SchemeAsMultiScheme(new MessageSpout());
-
 
         TopologyBuilder builder = new TopologyBuilder();
 
@@ -38,16 +37,12 @@ public class KafkaTopo {
         Config conf = new Config();
         conf.setNumWorkers(4);
         conf.setNumAckers(0);
-        conf.setDebug(false);
+        conf.setDebug(true);
 
         //LocalCluster用来将topology提交到本地模拟器运行，方便开发调试
-        LocalCluster cluster = new LocalCluster();
-        cluster.submitTopology("WordCount",conf,builder.createTopology());
+//        LocalCluster cluster = new LocalCluster();
+//        cluster.submitTopology("WordCount",conf,builder.createTopology());
 
-     /*   try {
-            StormSubmitter.submitTopology("WordCount",conf,builder.createTopology());
-        } catch (Exception e) {
-            e.printStackTrace();
-        }*/
+        StormSubmitter.submitTopology("WordCount", conf, builder.createTopology());
     }
 }
