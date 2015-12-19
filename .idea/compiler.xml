@@ -37,6 +37,7 @@
         <module name="temperature" />
         <module name="untitled" />
         <module name="wordcount" />
+        <module name="zookeeper" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -57,6 +58,7 @@
       <module name="temperature" target="1.6" />
       <module name="untitled" target="1.6" />
       <module name="wordcount" target="1.6" />
+      <module name="zookeeper" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -22,7 +22,7 @@ public class HBaseDemo {
     private static Configuration conf = null;
 
     @Before
-    public void init() {
+    public void init() {z
         //配置HBase连接信息
         conf = HBaseConfiguration.create();
         //客户端连接为 zookeeper zookeeper自动查找活动的 HMaster

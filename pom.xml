@@ -23,6 +23,7 @@
         <module>storm</module>
         <module>kafka</module>
         <module>storm-kafka</module>
+        <module>zookeeper</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
